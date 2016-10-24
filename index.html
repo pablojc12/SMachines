@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SM | Inicio</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/favicon.png" type="imagen.png" />
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<!-- Font Awesome  -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<!-- Web Font  -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+<!-- Custom CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html"><i class="imgLogo"></i></a></div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#section_header">Inicio</a></li>
+        <li><a href="about.html">Conócenos !</a></li>
+        <li><a href="services.html">Servicios</a></li>
+        <li><a href="contact.html">Contactanos...</a></li>
+        <li><a href="control/redirect.php">MI CUENTA!</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- end navbar -->
+<!-- Slider -->
+<div class="header-banner"> 
+  <script src="js/responsiveslides.min.js"></script> 
+  <script>
+			 $(function () {
+			  $("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 2500,
+				namespace: "callbacks",
+				pager: true,
+			  });
+			 });
+			 </script>
+  <div class="container">
+    <div class="slider">
+      <div class="callbacks_container">
+        <ul class="rslides" id="slider">
+          <li> <img src="images/bnr1.jpg" alt="">
+            <div class="caption">
+              <h1>Solución Profecional<span>.</span></h1>
+              <p>Contamos con todos los servicios que su auto pudiera necesitar</p>
+              <a href="services.html" class="btn">Mas Información</a> </div>
+          </li>
+          <li> <img src="images/bnr2.jpg" alt="">
+            <div class="caption">
+              <h1>Instalaciones de Calidad<span>.</span></h1>
+              <p>El mejor y más extenso catálogo de refacciones en México.</p>
+              <a href="services.html" class="btn">Mas Información</a> </div>
+          </li>
+          <li> <img src="images/bnr3.jpg" alt="">
+            <div class="caption">
+              <h1>Personal Especializado<span>.</span></h1>
+              <p>Especialistas en flotillas ejecutivas, autos de lujo y deportivos de última tecnología.</p>
+              <a href="services.html" class="btn">Mas Información</a> </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Welcome Section -->
+<div id="section_header">
+  <h2><span>Bienvenido</span> !</h2>
+</div>
+<div id="welcome" class="back-text">
+  <div class="container">
+    <div class="col-md-6"> <img class="img-responsive" src="images/about1.png"> </div>
+    <div id="text" class="col-md-6">
+   	  <p>
+      <h3>Sobre Nosotros</h3>
+      <p>En SERVICE MACHINES somos especialistas en todas las marcas. Contamos con TODOS los servicios que su auto pudiera necesitar. Trabajos con la calidad de agencia pero a costos y tiempos razonables.</p>
+      <p> Podemos ofrecer precios competitivos ya que somos distibuidores directos de las principales marcas de refacciones nacionales e importadas.</p>
+      <div align="right"><a href="about.html" class="btn">Mas...</a></div>
+      <br>
+    </div>
+  </div>
+  <div class="container">
+  	<div class="col-md-8" id="text">
+  		 <br>
+  		 <p>El mejor y más extenso catálogo de refacciones en México. Más de 25 años de experiencia en el mercado hacen de nosotros la mejor opción para mantener el funcionamiento de tu automóvil en óptimas condiciones. Dentro de nuestro catálogo de refacciones puedes encontrar piezas para las más prestigiosas marcas de automóviles europeos:</p>
+  	</div>
+  	<div class="col-md-4" id="center">
+  	<img src="images/ex-ser.png"/>
+  	</div>
+  </div>
+  <!-- Separation -->
+  <div class="container">
+  	<div class="col-md-12">
+  		<hr>
+  	</div>
+  </div>
+  <!-- End Separation -->
+  <div class="container">
+  	<div class="col-md-6">
+  		<div class="text" id="center">
+  			<h3 id="back-text"><img src="images/clock.png"> Horarios:</h3>
+  			<br>
+  			<p>Lunes - Viernes: 9:00 am - 6:00 
+			<br>Sabado: 9:00 am - 2:00 pm
+			<p>Recolección a Domicilio (5km).
+			<br>Recepción y Entrega Nocturna
+			<br>Disponible (previa cita)
+			<br>.
+		</div>
+  	</div> 
+  	<div  class="col-md-6" id="back-text">
+  		<div class="text" id="center">
+  			<h3 id="bac-text">Refacciones:</h3>
+  			<div class="col-md-5" id="back-text">
+  			 	<p>BMW
+ 				<p>Dodge
+				<p>Volkswagen
+				<p>Honda
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-5" id="back-text">
+				<p>Toyota
+				<p>Chevrolet
+				<p>Jeep
+				<p>SEAT
+			</div>
+  		</div>
+  	</div>
+  </div>
+</div>
+ <!-- bar-bottom -->
+	<div class="container">
+		<div class="col-md-12">
+			<br>
+			<img class="img-responsive" src="images/bar-bottom.png"/>
+		</div>
+	</div>
+<!-- Footer -->
+<div id="footerwrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8" id="diwa"> <span class="copyright">Copyright<sup>&copy;</sup> 2015 Service Machines. Design by <a href="#diwa" rel="nofollow">D.I.W.A</a></span> </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+/* PAGER ------------------------------------------------------------*/
+
+.non-pager{
+	overflow: hidden;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+.non-pager li{
+	display: block;
+	margin-right: 5px;
+	float: left;
+}
+
+.non-pager li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: #282D34;
+	width: 40px;
+	border: none;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	background: #F0F0F0;
+}
+
+.non-pager li.active a{
+	color: #ffffff;
+	background: #000000;
+	border: none ;
+}
+
+.non-pager li:hover a{
+	color: #ffffff;
+	background: #e11116;
+	border: none;
+}
+
+#borrado{
+	background-image: url("../images/borrar.png");
+	border-radius: 20px;
+	color: #fff;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+#borrado button[type="submit"]{
+	color: white;
+	font-size: 16px;
+	border: navy;
+	outline: none;
+	padding: 5px 15px 5px 15px;
+	margin-top: 20px;
+	margin-right: 25px;
+	border-radius: 5px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	-webkit-appearance: none;
+	text-transform: uppercase;
+}
+	
+#btnBorrar:hover{
+	background-color: #58a75a ;
+}
+#btnCancelar:hover{
+	background-color: #595959;
+}
+#btnBorrar {
+	background-color: green;
+}
+#btnBorrar:active{
+	background-color: green;
+}
+#btnCancelar:active{
+	background-color: black;
+	border-color: black;
+}
+#btnCancelar{
+	background-color: black;
+}
+
+/* botones ------------------------------------------------------------*/
+.consultCitas button[type="submit"]{
+	width: 45px;
+	height: 40px;
+	margin: 10px 5px 10px 10px;
+	position: relative;
+	border-radius: 7px;
+	outline: none;
+	border: none;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	-webkit-appearance: none;
+}
+.consultCitas button[type="submit"]:hover{
+	background-color: #3e3e3e;
+}
+.consultCitas button[type="submit"]:active{
+	background-image: none;
+	background-color: #575757;
+}
+.btnBorrar{
+	background-color: #ca0d11;
+	background-image: url("../images/bote.png");
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.btnQR{
+	background-color: #ffffff;
+	background-image: url("../images/qr.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.btnPDF{
+	background-color: #ff5706;
+	background-image: url("../images/pdf.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
